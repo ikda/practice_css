@@ -1,7 +1,13 @@
 :root {
-	--awesomeColor: #2980b9;
+	--awesomeColor: 1px solid red;
 }
 
 li:first-child a {
-	color: var(--awesomeColor);
+	border: var(--awesomeColor);
+}
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+:--heading {
+	color: red;
 }
