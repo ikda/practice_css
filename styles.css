@@ -1,11 +1,7 @@
-/* 
-  matches
-li:matches(:nth-child(even), .target) {
-	background: blue;
+:root {
+	--awesomeColor: #2980b9;
 }
 
-*/
-
-li:not(.target) {
-	background-color: blue;
+li:first-child a {
+	color: var(--awesomeColor);
 }
